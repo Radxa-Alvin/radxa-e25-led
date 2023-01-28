@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+systemctl enable radxa-e25-led.service || true

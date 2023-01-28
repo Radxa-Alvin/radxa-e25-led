@@ -1,0 +1,8 @@
+Package: radxa-e25-led
+Version: 0.1
+Maintainer: Radxa <dev@radxa.com>
+Architecture: arm64
+Section: utils
+Component: main
+Priority: optional
+Description: Radxa E25 LED run package.

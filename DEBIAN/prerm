@@ -1,0 +1,9 @@
+#!/bin/bash
+set -e
+
+if [ -e "/etc/systemd/system/multi-user.target.wants/radxa-e25-led.service" ]; then
+    systemctl disable rradxa-e25-led.service || true
+fi
+
+systemctl stop radxa-e25-led.service || true
+
