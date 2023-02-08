@@ -1,0 +1,2 @@
+src/radxa-e25-led.sh /usr/sbin
+src/radxa-e25-led.service /lib/systemd/system
