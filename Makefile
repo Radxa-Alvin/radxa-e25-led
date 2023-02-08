@@ -18,16 +18,9 @@ test:
 # Build
 #
 .PHONY: build
-build: build-man build-doc
+build: build-doc
 
-SRC-MAN		:=	man
-SRCS-MAN	:=	$(wildcard $(SRC-MAN)/*.md)
-MANS		:=	$(SRCS-MAN:.md=)
-.PHONY: build-man
-build-man: $(MANS)
 
-$(SRC-MAN)/%: $(SRC-MAN)/%.md
-	pandoc "$<" -o "$@" --from markdown --to man -s
 
 SRC-DOC		:=	src
 DOCS		:=	$(SRC-DOC)/SOURCE
