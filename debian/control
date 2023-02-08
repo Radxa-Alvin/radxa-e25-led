@@ -1,8 +1,13 @@
 Package: radxa-e25-led
 Version: 0.1
-Maintainer: Radxa <dev@radxa.com>
-Architecture: arm64
-Section: utils
-Component: main
-Priority: optional
+Maintainer: "Radxa Computer Co., Ltd" <dev@radxa.com>
+Section: admin
+Priority: standard
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>=12~),
+               devscripts,
+               lintian,
+               pandoc,
+               shellcheck,
+
 Description: Radxa E25 LED run package.
