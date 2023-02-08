@@ -16,7 +16,7 @@ jobs:
 
       - name: Build
         run: |
-          dpkg -b ../radxa-e25-led radxa-e25-led.deb
+          dpkg -b src radxa-e25-led.deb
 
       - name: Workaround actions/upload-artifact#176
         run: |
