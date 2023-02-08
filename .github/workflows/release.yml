@@ -17,6 +17,7 @@ jobs:
       - name: Build
         run: |
           sudo apt-get update
+          sudo apt install devscripts
           sudo apt-get build-dep --no-install-recommends -y .
           make all deb
       - name: Workaround actions/upload-artifact#176

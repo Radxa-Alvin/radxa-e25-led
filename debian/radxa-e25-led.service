@@ -1,9 +1,0 @@
-[Unit]
-Description=Radxa light
-Documentation=https://wiki.radxa.com/Template:Rockpi_apt
-[Service]
-Type=forking
-ExecStart=/usr/local/bin/radxa-e25-led.sh start
-ExecStop=/usr/local/bin/radxa-e25-led.sh stop
-[Install]
-WantedBy=multi-user.target
