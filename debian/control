@@ -8,6 +8,6 @@ Build-Depends: debhelper (>=12~),
                devscripts,
                lintian,
                pandoc,
-               shellcheck,
+               shellcheck
 
 Description: Radxa E25 LED run package.
