@@ -12,7 +12,7 @@ all: build
 #
 .PHONY: test
 test:
-	shellcheck --source-path=./src --external-sources src/radxa-otgutils
+	shellcheck --source-path=./src --external-sources src/radxa-e25-led
 
 #
 # Build
